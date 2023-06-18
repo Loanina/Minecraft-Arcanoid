@@ -21,7 +21,7 @@ MonoBehaviour:
   blocksRendererSettings:
   - rendererParamsID: 1
     blockDesignParams:
-      blockHealth: 3
+      blockHealth: 2
       mainSprite: {fileID: 21300000, guid: 75d24a16e935f453480b45455dba453f, type: 3}
       mainColor: {r: 0.56078434, g: 0.56078434, b: 0.56078434, a: 1}
       accentColor: {r: 0.42352945, g: 0.41960788, b: 0.41960788, a: 1}
@@ -39,7 +39,7 @@ MonoBehaviour:
       accentColor: {r: 0.10980393, g: 0.82745105, b: 0.8470589, a: 1}
   - rendererParamsID: 3
     blockDesignParams:
-      blockHealth: 2
+      blockHealth: 3
       mainSprite: {fileID: 21300000, guid: 03b574f7d106c440897eb99abe68c900, type: 3}
       mainColor: {r: 0.53333336, g: 0.53333336, b: 0.5294118, a: 1}
       accentColor: {r: 0.10588236, g: 0.7607844, b: 0.26666668, a: 1}
@@ -51,7 +51,7 @@ MonoBehaviour:
       accentColor: {r: 0.48235297, g: 0.32941177, b: 0.22352943, a: 1}
   - rendererParamsID: 6
     blockDesignParams:
-      blockHealth: 2
+      blockHealth: 3
       mainSprite: {fileID: 21300000, guid: 5dca726e1eac84b8b8015c28d4741d61, type: 3}
       mainColor: {r: 0.63529414, g: 0.63529414, b: 0.63529414, a: 1}
       accentColor: {r: 0.90196085, g: 0.64705884, b: 0.07058824, a: 1}
@@ -63,7 +63,7 @@ MonoBehaviour:
       accentColor: {r: 0.85098046, g: 0.6862745, b: 0.5803922, a: 1}
   - rendererParamsID: 9
     blockDesignParams:
-      blockHealth: 3
+      blockHealth: 2
       mainSprite: {fileID: 21300000, guid: 15e69770ebb064e11a4cbdf4ea7b2ba7, type: 3}
       mainColor: {r: 0.72156864, g: 0.5803922, b: 0.37254903, a: 1}
       accentColor: {r: 0.45098042, g: 0.36078432, b: 0.20784315, a: 1}
@@ -135,7 +135,187 @@ MonoBehaviour:
       accentColor: {r: 0.4784314, g: 0.68235296, b: 0.7137255, a: 1}
   - rendererParamsID: 20
     blockDesignParams:
-      blockHealth: 1
+      blockHealth: 2
       mainSprite: {fileID: 21300000, guid: 75e094d28007a46cf8bffbd406809e5f, type: 3}
       mainColor: {r: 0.9294118, g: 0.96470594, b: 0.7058824, a: 1}
       accentColor: {r: 0.7686275, g: 0.74509805, b: 0.54901963, a: 1}
+  - rendererParamsID: 21
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 8e5b7f8fca57e894daedd56822568b12, type: 3}
+      mainColor: {r: 0.04705883, g: 0.050980397, b: 0.07058824, a: 1}
+      accentColor: {r: 0.10588236, g: 0.1137255, b: 0.14117648, a: 1}
+  - rendererParamsID: 22
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 91896bccd74246346bff6d48839f6418, type: 3}
+      mainColor: {r: 0.18039216, g: 0.18823531, b: 0.5764706, a: 1}
+      accentColor: {r: 0.24313727, g: 0.3019608, b: 0.69803923, a: 1}
+  - rendererParamsID: 23
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: a6f08fbe2b51a814ead5554cbcd15d2d, type: 3}
+      mainColor: {r: 0.41176474, g: 0.25490198, b: 0.14117648, a: 1}
+      accentColor: {r: 0.5137255, g: 0.3254902, b: 0.19215688, a: 1}
+  - rendererParamsID: 24
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: b547e7a913e9e3048bb017d018796adf, type: 3}
+      mainColor: {r: 0.08235294, g: 0.54509807, b: 0.57254905, a: 1}
+      accentColor: {r: 0.08235294, g: 0.5882353, b: 0.59607846, a: 1}
+  - rendererParamsID: 25
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: d45f13610478eb0499f9a56c5d8706b7, type: 3}
+      mainColor: {r: 0.27058825, g: 0.3019608, b: 0.3137255, a: 1}
+      accentColor: {r: 0.21960786, g: 0.23529413, b: 0.24705884, a: 1}
+  - rendererParamsID: 26
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 21ab2a187679df743bc518eb25788432, type: 3}
+      mainColor: {r: 0.2901961, g: 0.3647059, b: 0.13333334, a: 1}
+      accentColor: {r: 0.39607847, g: 0.5254902, b: 0.098039225, a: 1}
+  - rendererParamsID: 27
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: e70dc58f81b8b0d418782a1372613526, type: 3}
+      mainColor: {r: 0.25882354, g: 0.7372549, b: 0.87843144, a: 1}
+      accentColor: {r: 0.18431373, g: 0.62352943, b: 0.8196079, a: 1}
+  - rendererParamsID: 28
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: cb27838b215c5934d89f03b9b73af8dd, type: 3}
+      mainColor: {r: 0.5647059, g: 0.5686275, b: 0.5372549, a: 1}
+      accentColor: {r: 0.49803925, g: 0.49803925, b: 0.45882356, a: 1}
+  - rendererParamsID: 29
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 48686954239461a4ab3e7d9ad6b74d3b, type: 3}
+      mainColor: {r: 0.4784314, g: 0.7607844, b: 0.10588236, a: 1}
+      accentColor: {r: 0.37647063, g: 0.67058825, b: 0.09411766, a: 1}
+  - rendererParamsID: 30
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: d4c95706dbffc0342957365c4de713a6, type: 3}
+      mainColor: {r: 0.8352942, g: 0.37254903, b: 0.81568635, a: 1}
+      accentColor: {r: 0.6745098, g: 0.20000002, b: 0.63529414, a: 1}
+  - rendererParamsID: 31
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: c3820fec03b9ffb42ac5d7e9c56de6cf, type: 3}
+      mainColor: {r: 0.97647065, g: 0.49803925, b: 0.10588236, a: 1}
+      accentColor: {r: 0.91372555, g: 0.4156863, b: 0.03137255, a: 1}
+  - rendererParamsID: 32
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 1d112bf7f30c62649aa5076bd60997f1, type: 3}
+      mainColor: {r: 0.9568628, g: 0.63529414, b: 0.7372549, a: 1}
+      accentColor: {r: 0.8588236, g: 0.4156863, b: 0.5764706, a: 1}
+  - rendererParamsID: 33
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 89b50607bdaead345baeec9c8fb3a728, type: 3}
+      mainColor: {r: 0.52156866, g: 0.18431373, b: 0.70980394, a: 1}
+      accentColor: {r: 0.4039216, g: 0.1254902, b: 0.61960787, a: 1}
+  - rendererParamsID: 34
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 3be71090362fd424883bc34ce475b02d, type: 3}
+      mainColor: {r: 0.62352943, g: 0.14901961, b: 0.12941177, a: 1}
+      accentColor: {r: 0.72156864, g: 0.20392159, b: 0.17254902, a: 1}
+  - rendererParamsID: 35
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: b38f1d788756d0143a5d4c677e14f3f6, type: 3}
+      mainColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+      accentColor: {r: 0.8352942, g: 0.854902, b: 0.8588236, a: 1}
+  - rendererParamsID: 36
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 5f6ad93150cee7145997a3d68faa5e16, type: 3}
+      mainColor: {r: 0.98823535, g: 0.8196079, b: 0.18823531, a: 1}
+      accentColor: {r: 0.96470594, g: 0.7372549, b: 0.1137255, a: 1}
+  - rendererParamsID: 37
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 8eb3150d3830afc4f98919c97cf9a952, type: 3}
+      mainColor: {r: 0.5372549, g: 0.38431376, b: 0.2627451, a: 1}
+      accentColor: {r: 0.29411766, g: 0.20392159, b: 0.13725491, a: 1}
+  - rendererParamsID: 38
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: 971ecfdbde9cd724c8bf779544c872df, type: 3}
+      mainColor: {r: 0.44705886, g: 0.5686275, b: 0.79215693, a: 1}
+      accentColor: {r: 0.3803922, g: 0.5254902, b: 0.79215693, a: 1}
+  - rendererParamsID: 39
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 93a1406a327518049b4a656a1f837dac, type: 3}
+      mainColor: {r: 0.9843138, g: 0.854902, b: 0.454902, a: 1}
+      accentColor: {r: 0.52156866, g: 0.3137255, b: 0.16078432, a: 1}
+  - rendererParamsID: 40
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: 3c0b1432ce88b444f9043e6dacad7517, type: 3}
+      mainColor: {r: 0.6627451, g: 0.4666667, b: 0.3921569, a: 1}
+      accentColor: {r: 0.37254903, g: 0.2509804, b: 0.20392159, a: 1}
+  - rendererParamsID: 41
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: cc081b03ec93fc94bb76322d81494bc2, type: 3}
+      mainColor: {r: 0.5411765, g: 0.5411765, b: 0.5411765, a: 1}
+      accentColor: {r: 0.4431373, g: 0.52156866, b: 0.30980393, a: 1}
+  - rendererParamsID: 42
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: c8cc6894e36ed184484d1186c151bb94, type: 3}
+      mainColor: {r: 0.30588236, g: 0.29411766, b: 0.32941177, a: 1}
+      accentColor: {r: 0.14509805, g: 0.10980393, b: 0.1137255, a: 1}
+  - rendererParamsID: 43
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: e5f55596364a48547a56d6a034776b32, type: 3}
+      mainColor: {r: 0.62352943, g: 0.41960788, b: 0.34509805, a: 1}
+      accentColor: {r: 0.7058824, g: 0.60784316, b: 0.5686275, a: 1}
+  - rendererParamsID: 44
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: dfb5bdcecef0bf3419dd818aeda5e27b, type: 3}
+      mainColor: {r: 1, g: 1, b: 1, a: 1}
+      accentColor: {r: 0.92549026, g: 0.9843138, b: 0.9843138, a: 1}
+  - rendererParamsID: 45
+    blockDesignParams:
+      blockHealth: 1
+      mainSprite: {fileID: 21300000, guid: 502e8e98dab6e264da232f806e1a7c97, type: 3}
+      mainColor: {r: 0.47450984, g: 0.33333334, b: 0.227451, a: 1}
+      accentColor: {r: 0.9686275, g: 0.9960785, b: 0.9960785, a: 1}
+  - rendererParamsID: 46
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: ccc06117a3406f14883eba0eeb5cd3d5, type: 3}
+      mainColor: {r: 0.49803925, g: 0.49803925, b: 0.49803925, a: 1}
+      accentColor: {r: 0.3529412, g: 0.34901962, b: 0.3529412, a: 1}
+  - rendererParamsID: 47
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: 9d0764c89385f104d9a5774ffb31fa3c, type: 3}
+      mainColor: {r: 0.40784317, g: 0.30588236, b: 0.1254902, a: 1}
+      accentColor: {r: 0.24313727, g: 0.18823531, b: 0.07450981, a: 1}
+  - rendererParamsID: 48
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: 3897fd1bba3943f42bc8183baedf44f6, type: 3}
+      mainColor: {r: 0.3019608, g: 0.20000002, b: 0.09411766, a: 1}
+      accentColor: {r: 0.18039216, g: 0.10980393, b: 0.03137255, a: 1}
+  - rendererParamsID: 49
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: 82ae260c927c2fc45abaa5eab723a9b5, type: 3}
+      mainColor: {r: 1, g: 1, b: 1, a: 1}
+      accentColor: {r: 0.21176472, g: 0.20392159, b: 0.16470589, a: 1}
+  - rendererParamsID: 50
+    blockDesignParams:
+      blockHealth: 2
+      mainSprite: {fileID: 21300000, guid: f1f35db51b52a40119d0a1546919c101, type: 3}
+      mainColor: {r: 0.5137255, g: 0.03137255, b: 0.8941177, a: 1}
+      accentColor: {r: 0.0627451, g: 0.04705883, b: 0.10980393, a: 1}
