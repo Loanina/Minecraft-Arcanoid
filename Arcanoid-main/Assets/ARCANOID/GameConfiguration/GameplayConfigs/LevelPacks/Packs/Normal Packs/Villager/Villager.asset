@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c9f65c04ee4f0193352b1b7d551e40, type: 3}
+  m_Name: Villager
+  m_EditorClassIdentifier: 
+  packID: villager
+  levels:
+  - {fileID: 4900000, guid: 7217092bb749f0d409158360fdce4e4b, type: 3}
+  - {fileID: 4900000, guid: 4f4e4d9a5f59b54419333adadd014e7b, type: 3}
+  - {fileID: 4900000, guid: 3891b82618b091b4595a99743788be36, type: 3}
+  icon: {fileID: 21300000, guid: 050d28943645c438aa6b937babdcaae8, type: 3}
+  gameBackground: {fileID: 21300000, guid: 4749c3eae9c58dc43ad1fff747c78796, type: 3}
+  packButtonBackground: {fileID: 21300000, guid: 03b574f7d106c440897eb99abe68c900, type: 3}
+  fontColor: {r: 0, g: 0, b: 0, a: 1}

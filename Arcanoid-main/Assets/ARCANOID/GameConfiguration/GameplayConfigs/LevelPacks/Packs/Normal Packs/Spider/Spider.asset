@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c9f65c04ee4f0193352b1b7d551e40, type: 3}
+  m_Name: Spider
+  m_EditorClassIdentifier: 
+  packID: spider
+  levels:
+  - {fileID: 4900000, guid: 91e0d1174086cb24daa5706b825e9a9d, type: 3}
+  - {fileID: 4900000, guid: bbcd6a8d4a443e743b4027a3b3913e1b, type: 3}
+  - {fileID: 4900000, guid: ae4f05efb5cd5b34cb105164514da88f, type: 3}
+  - {fileID: 4900000, guid: 1ab62aedf0887024ca0137c58e11bb61, type: 3}
+  icon: {fileID: 21300000, guid: 6c066fcbf0f014d88a545fa95c6694f7, type: 3}
+  gameBackground: {fileID: 21300000, guid: 2942dde153b71c54c88fc350937ba0b7, type: 3}
+  packButtonBackground: {fileID: 21300000, guid: 8e5b7f8fca57e894daedd56822568b12, type: 3}
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
