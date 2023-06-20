@@ -19,6 +19,6 @@ MonoBehaviour:
   - {fileID: 4900000, guid: d110a5e5af1c048c2b9321d0a8b2c9f1, type: 3}
   - {fileID: 4900000, guid: e13501079e8f64db686f2a8088dbd3fe, type: 3}
   icon: {fileID: 21300000, guid: aa16328ca1a1f465db44645d403e9f14, type: 3}
-  gameBackground: {fileID: 21300000, guid: 63907ba2ee10048df8887731525f5f71, type: 3}
+  gameBackground: {fileID: 21300000, guid: de2af45f765465948a4014ebb95f8f39, type: 3}
   packButtonBackground: {fileID: 21300000, guid: 37bf8ef9061284cedb8c5b93ef0207b2, type: 3}
   fontColor: {r: 0, g: 0, b: 0, a: 1}
