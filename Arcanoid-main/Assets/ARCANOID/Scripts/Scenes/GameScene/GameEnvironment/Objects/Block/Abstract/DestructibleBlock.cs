@@ -1,4 +1,5 @@
 using System.Collections;
+using TapticPlugin;
 using UnityEngine;
 
 public abstract class DestructibleBlock : Block
@@ -70,6 +71,7 @@ public abstract class DestructibleBlock : Block
             Destroy();
             return;
         }
+        TapticManager.Impact(ImpactFeedback.Light);
         blockParticleSystem.PlayHit();
         cracksRenderer.ShowCracksByHealth(_healthPoints);
     }

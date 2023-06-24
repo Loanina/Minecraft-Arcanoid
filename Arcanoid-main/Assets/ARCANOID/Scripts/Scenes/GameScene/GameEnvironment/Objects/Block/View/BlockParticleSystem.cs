@@ -1,4 +1,5 @@
 using System.Collections;
+using TapticPlugin;
 using UnityEngine;
 
 public class BlockParticleSystem : MonoBehaviour
@@ -34,6 +35,7 @@ public class BlockParticleSystem : MonoBehaviour
     public IEnumerator PlayDestruction()
     {
         destructionParticles.Play();
+        TapticManager.Impact(ImpactFeedback.Medium);
         yield return new WaitUntil(() => !destructionParticles.isPlaying);
     }
 

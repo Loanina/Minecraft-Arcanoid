@@ -1,3 +1,4 @@
+using TapticPlugin;
 using UnityEngine;
 using Zenject;
 
@@ -34,6 +35,7 @@ public class PlayerHealthController : MonoBehaviour, IPlayerHealthChangeHandler,
 
     public void OnRemoveHealth(bool isBallDestroyed)
     {
+        TapticManager.Impact(ImpactFeedback.Heavy);
         if (_currentHeartID >= 0)
         {
             view.RemoveHeart(_currentHeartID);
