@@ -1,3 +1,4 @@
+using TapticPlugin;
 using UnityEngine;
 
 public class ReboundDirectionCalculator
@@ -16,7 +17,11 @@ public class ReboundDirectionCalculator
      
      public void OnCollisionEnter2D(Collision2D other)
      {
-          if (other.collider.TryGetComponent(out PlatformCollider _)) return;
+          if (other.collider.TryGetComponent(out PlatformCollider _))
+          {
+               TapticManager.Impact(ImpactFeedback.Light);
+               return;
+          }
           
           CalculateReboundAngle(Vector2.up, _ballPhysicsSettings.VerticalNormal , true);
           CalculateReboundAngle(Vector2.right, _ballPhysicsSettings.HorizontalNormal, false);
