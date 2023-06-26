@@ -15,15 +15,15 @@ C:/Users/Bogdan/Desktop/Minecraft-Arcanoid/Arcanoid-main
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52468
+54122
 Successfully changed project path to: C:/Users/Bogdan/Desktop/Minecraft-Arcanoid/Arcanoid-main
 C:/Users/Bogdan/Desktop/Minecraft-Arcanoid/Arcanoid-main
 Using Asset Import Pipeline V2.
-Player connection [24028] Host "[IP] 192.168.0.107 [Port] 2953007392 [Flags] 2 [Guid] 616029381 [EditorId] 616029381 [Version] 1048832 [Id] WindowsEditor(7,Legion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24936] Host "[IP] 192.168.0.107 [Port] 1073959200 [Flags] 2 [Guid] 2530962735 [EditorId] 2530962735 [Version] 1048832 [Id] WindowsEditor(7,Legion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24028] Host "[IP] 192.168.0.107 [Port] 2953007392 [Flags] 2 [Guid] 616029381 [EditorId] 616029381 [Version] 1048832 [Id] WindowsEditor(7,Legion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24936] Host "[IP] 192.168.0.107 [Port] 1073959200 [Flags] 2 [Guid] 2530962735 [EditorId] 2530962735 [Version] 1048832 [Id] WindowsEditor(7,Legion) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 53.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.46f1 (18bc01a066b4)
 [Subsystems] Discovering subsystems at path D:/Programs/Unity/2020.3.46f1/Editor/Data/Resources/UnitySubsystems
@@ -39,90 +39,90 @@ Initialize mono
 Mono path[0] = 'D:/Programs/Unity/2020.3.46f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programs/Unity/2020.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Programs/Unity/2020.3.46f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programs/Unity/2020.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000942 seconds.
+Registered in 0.001022 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.436 seconds
+- Completed reload, in  0.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (436ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (431ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (339ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (336ms)
+			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (104ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (136ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (139ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (41ms)
 				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (62ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				ProcessInitializeOnLoadAttributes (63ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004648 seconds.
+Registered in 0.003772 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
+- Completed reload, in  0.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (706ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (676ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (271ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (273ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2635 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 110.6 MB.
 System memory in use after: 110.8 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 3073.
-Total: 2.750100 ms (FindLiveObjects: 0.216800 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.369300 ms  DeleteObjects: 0.064800 ms)
+Total: 3.133200 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.066100 ms MarkObjects: 2.773100 ms  DeleteObjects: 0.075600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,191 +136,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ARCANOID/Scenes/LevelSelection.unity
-  artifactKey: Guid(a630b4212f9ed42fdac1c00da09518de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Scenes/LevelSelection.unity using Guid(a630b4212f9ed42fdac1c00da09518de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b973218a2f2193e01891b5c88be35f9') in 0.013002 seconds 
+  path: Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Chicken/Chicken.asset
+  artifactKey: Guid(3080158e455c7264084445fe820e65ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Chicken/Chicken.asset using Guid(3080158e455c7264084445fe820e65ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77768b2b2d64dca115a42ae80818d39') in 0.044578 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.333942 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Bonuses/BallAcceleration.png
-  artifactKey: Guid(c2d7ed163408d4563bba8c03ee87db71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Bonuses/BallAcceleration.png using Guid(c2d7ed163408d4563bba8c03ee87db71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503a3330296bd4253b5036eca52f61e8') in 0.102271 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/BlackstoneBricks.png
-  artifactKey: Guid(c8cc6894e36ed184484d1186c151bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/BlackstoneBricks.png using Guid(c8cc6894e36ed184484d1186c151bb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd53313a66b2030d7a39150f0a4c521') in 0.020195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Bonuses/BallDeceleration.png
-  artifactKey: Guid(5a386aa9e72a84df48dcc50ddf3ec485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Bonuses/BallDeceleration.png using Guid(5a386aa9e72a84df48dcc50ddf3ec485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114762ddd4d329d0c04579bb0ff2ff8b') in 0.016884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/CyanWool.png
-  artifactKey: Guid(b547e7a913e9e3048bb017d018796adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/CyanWool.png using Guid(b547e7a913e9e3048bb017d018796adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0da052a844fafc4133961a3aa005b27') in 0.017111 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/Cracks/cracks2.png
-  artifactKey: Guid(d6a29f8a118a346b8814b899b13e501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/Cracks/cracks2.png using Guid(d6a29f8a118a346b8814b899b13e501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2621b31baf66ec0a64109c8af0ec5f') in 0.017329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/ColorTNT.png
-  artifactKey: Guid(4d3441507e3e946f3962c9beab585d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/ColorTNT.png using Guid(4d3441507e3e946f3962c9beab585d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78535f3d1a22eddb9b5457115f536085') in 0.017865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/Cracks/cracks1.png
-  artifactKey: Guid(e0a2990efa8614c9d9aca3fadfd1f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/Cracks/cracks1.png using Guid(e0a2990efa8614c9d9aca3fadfd1f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917d0a44cd41ccbde628bd2ad4114624') in 0.017348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Bonuses/BlackLabel.png
-  artifactKey: Guid(6e341fc091fd544ef92bdea11eca9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Bonuses/BlackLabel.png using Guid(6e341fc091fd544ef92bdea11eca9769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de928011b811fd922713bc1393d64834') in 0.018135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/Bedrock.png
-  artifactKey: Guid(3ff081a6196bb4c8d81b553851644cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/Bedrock.png using Guid(3ff081a6196bb4c8d81b553851644cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587e1beb2315f3d3200cd5cd9a809ef5') in 0.015808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/BlueWool.png
-  artifactKey: Guid(91896bccd74246346bff6d48839f6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/BlueWool.png using Guid(91896bccd74246346bff6d48839f6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb43255f8baedc6d7889f5d67d9a84e6') in 0.017195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/CoarseDirt.png
-  artifactKey: Guid(8eb3150d3830afc4f98919c97cf9a952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/CoarseDirt.png using Guid(8eb3150d3830afc4f98919c97cf9a952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c13298cef7411c75efa7ce209fbd23') in 0.015203 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Packs/Creeper.png
-  artifactKey: Guid(aa16328ca1a1f465db44645d403e9f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Packs/Creeper.png using Guid(aa16328ca1a1f465db44645d403e9f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328c6c418f0783d30ebbf996f0138460') in 0.024045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/BrownWool.png
-  artifactKey: Guid(a6f08fbe2b51a814ead5554cbcd15d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/BrownWool.png using Guid(a6f08fbe2b51a814ead5554cbcd15d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb09d934b61db60742da93e711c09394') in 0.016280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/CryingObsidian.png
-  artifactKey: Guid(f1f35db51b52a40119d0a1546919c101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/CryingObsidian.png using Guid(f1f35db51b52a40119d0a1546919c101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f723cd64fb59d1cbfb2f3f78e64bbb71') in 0.016536 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/BlackWool.png
-  artifactKey: Guid(8e5b7f8fca57e894daedd56822568b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/BlackWool.png using Guid(8e5b7f8fca57e894daedd56822568b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f9d71582271e2fd1df36d159af2b51') in 0.016452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.973349 seconds.
-  path: Assets/ARCANOID/Media/Sprites/Game/Blocks/DarkWood.png
-  artifactKey: Guid(3897fd1bba3943f42bc8183baedf44f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Media/Sprites/Game/Blocks/DarkWood.png using Guid(3897fd1bba3943f42bc8183baedf44f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24a26f9cb58d15377a2ffdd9146e293') in 0.025080 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 232.156319 seconds.
-  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/PacksContainer/UIPacksContainer.cs
-  artifactKey: Guid(4bda8d6ea92b49d1bafe739f094b105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/PacksContainer/UIPacksContainer.cs using Guid(4bda8d6ea92b49d1bafe739f094b105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac2ab8356281bde89d943992ed7efbe') in 0.015390 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 60.2 MB.
-System memory in use after: 60.4 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3080.
-Total: 3.206700 ms (FindLiveObjects: 0.209800 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.913500 ms  DeleteObjects: 0.014400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 51.072108 seconds.
-  path: Assets/ARCANOID/Scripts/Scenes/InitScene
-  artifactKey: Guid(202be3ac3d6b43a195d296e59384976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Scripts/Scenes/InitScene using Guid(202be3ac3d6b43a195d296e59384976c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811d7f011035cd05a6032f6c3aefefa4') in 0.013814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 315.374871 seconds.
-  path: Assets/ARCANOID/Prefabs/GameObjects/Balls/Ball.prefab
-  artifactKey: Guid(4d75b75c89a954d39856edc9bd310abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/Prefabs/GameObjects/Balls/Ball.prefab using Guid(4d75b75c89a954d39856edc9bd310abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcdef33798d59bfaee75f432d001e13') in 0.046898 seconds 
+  Time since last request: 19.032204 seconds.
+  path: Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Chicken/Chicken.asset
+  artifactKey: Guid(3080158e455c7264084445fe820e65ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Chicken/Chicken.asset using Guid(3080158e455c7264084445fe820e65ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbc2562a538fc225224ee562455b381') in 0.005091 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003393 seconds.
+Registered in 0.003440 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.827 seconds
+- Completed reload, in  1.050 seconds
 Domain Reload Profiling:
-	ReloadAssembly (828ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (1051ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (628ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (860ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (229ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (141ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2613 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.3 MB.
-System memory in use after: 111.6 MB.
+System memory in use before: 108.4 MB.
+System memory in use after: 108.6 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3086.
-Total: 2.707100 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.072200 ms MarkObjects: 2.437700 ms  DeleteObjects: 0.020500 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3077.
+Total: 3.900000 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.139700 ms MarkObjects: 3.207500 ms  DeleteObjects: 0.056300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -335,7 +206,804 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1813.055604 seconds.
-  path: Assets/ARCANOID/GameConfiguration/GameplayConfigs/GameEntitiesConfig/Ball/BallPhysicsSettings.asset
-  artifactKey: Guid(0a0ec3914d3f741c4993ddbdaa2cdc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARCANOID/GameConfiguration/GameplayConfigs/GameEntitiesConfig/Ball/BallPhysicsSettings.asset using Guid(0a0ec3914d3f741c4993ddbdaa2cdc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b4d29804d843ab6c3b6a891e04330c') in 0.049437 seconds 
+  Time since last request: 730.387476 seconds.
+  path: Assets/ARCANOID/Scenes/GameScene.unity
+  artifactKey: Guid(675a2dff9443b4bfbbfaeb0aadb2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scenes/GameScene.unity using Guid(675a2dff9443b4bfbbfaeb0aadb2f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de6942ebe0754ce9b3ba4a36ab3c2a1') in 0.018828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4194.242916 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/InitScene/AppInitializer.cs
+  artifactKey: Guid(e5c28275eddc435883ee0e0abaf39eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/InitScene/AppInitializer.cs using Guid(e5c28275eddc435883ee0e0abaf39eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5ef7c05fb5c8646d139bd009c5ca7b') in 0.018448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 905.782566 seconds.
+  path: Assets/ARCANOID/Scripts/Editor
+  artifactKey: Guid(d3afda3830d164f099fa2223bd27d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Editor using Guid(d3afda3830d164f099fa2223bd27d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7166b836c68acd98d28dc6a43399ac10') in 0.014378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.557130 seconds.
+  path: Assets/ARCANOID/Scripts/Editor/Tools
+  artifactKey: Guid(40cca5bc8a74f4b0884ad517beee822c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Editor/Tools using Guid(40cca5bc8a74f4b0884ad517beee822c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01968538ba50a9d551b7362e1d965a9c') in 0.015380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.435440 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes
+  artifactKey: Guid(011ab4693b004bee96a6c01e2c396734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes using Guid(011ab4693b004bee96a6c01e2c396734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63143369b74aa5ff1f6c0ce9201e6bd') in 0.016215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.291567 seconds.
+  path: Assets/ARCANOID/Scripts/Libs
+  artifactKey: Guid(dcc8ff53e783b4c408be6f7764fdbc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs using Guid(dcc8ff53e783b4c408be6f7764fdbc5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824b3901638b25c4ac7350df258faf69') in 0.013111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.914915 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/Localization
+  artifactKey: Guid(d596ee9df45a14cdeb6ffb8badb1d746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/Localization using Guid(d596ee9df45a14cdeb6ffb8badb1d746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb0822b4f0b022c2afbdac5744cb86a') in 0.020019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.598929 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/Localization/LocalizationManager.cs
+  artifactKey: Guid(331fc8eb1f6c462cadc05e0d2b8444ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/Localization/LocalizationManager.cs using Guid(331fc8eb1f6c462cadc05e0d2b8444ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054fa7147f9ee4d409bcd44ed6d0b09f') in 0.015062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.587695 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/Localization/Parser
+  artifactKey: Guid(9a8d2e6f31da4451a89c402c155ddfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/Localization/Parser using Guid(9a8d2e6f31da4451a89c402c155ddfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98165df0e22534981423c175c460441e') in 0.010672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.912406 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/Localization/Parser/JsonTranslationParser.cs
+  artifactKey: Guid(47f99023755b47c39154ab2a677839c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/Localization/Parser/JsonTranslationParser.cs using Guid(47f99023755b47c39154ab2a677839c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb7961f48a9a3a26b23e6df01f55719') in 0.014409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 395.881133 seconds.
+  path: Assets/ARCANOID/Scripts/Common
+  artifactKey: Guid(9a6257c3bb2684e7da43c830edd2bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common using Guid(9a6257c3bb2684e7da43c830edd2bbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3d8b3f7b7b3590fe25c4bff5b28441') in 0.014557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.705074 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem
+  artifactKey: Guid(0f920f7b3342483ca468760a930c6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem using Guid(0f920f7b3342483ca468760a930c6d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987e70be4de9d6debda5a6f3c1fa0df3') in 0.014370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.448966 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/Manager
+  artifactKey: Guid(74395c4fca0f4808a0ce39c413a50fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/Manager using Guid(74395c4fca0f4808a0ce39c413a50fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6e0cc64860feb2ee747f09653aa6a8') in 0.013822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.646881 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/Manager/EnergyManager.cs
+  artifactKey: Guid(baae07b4f85e4332a4dfc09a8246fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/Manager/EnergyManager.cs using Guid(baae07b4f85e4332a4dfc09a8246fe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ade595b69a5f66de331426ef6eeb649') in 0.014545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 350.222440 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/Data
+  artifactKey: Guid(8b90002b40e74235bf1d5c8086c66550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/Data using Guid(8b90002b40e74235bf1d5c8086c66550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c726d2df75971687f052a6757064cc3') in 0.010524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.674003 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/Data/EnergyState.cs
+  artifactKey: Guid(10e815ac1ca14b959cb66415f1431cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/Data/EnergyState.cs using Guid(10e815ac1ca14b959cb66415f1431cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa410b96264bb1175add16c9e3b4e525') in 0.015016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.018210 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/Data/SavedEnergyProgress.cs
+  artifactKey: Guid(057fe15fe9b244678e89d60320e4e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/Data/SavedEnergyProgress.cs using Guid(057fe15fe9b244678e89d60320e4e910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b891a6329ae2f502ae91aa016a0b4c27') in 0.014301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.156990 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/Data/Interface
+  artifactKey: Guid(c6a309ec8ca1422ea1f63e217abb53b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/Data/Interface using Guid(c6a309ec8ca1422ea1f63e217abb53b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82a669dc898dfa77c41449938026772') in 0.015147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.521028 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PopupsSystem
+  artifactKey: Guid(b6e6587fc9af404cacf98952ebbd85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PopupsSystem using Guid(b6e6587fc9af404cacf98952ebbd85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad85319c6e26f1537b04e356ce0f3e4a') in 0.014936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.494344 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PopupsSystem/Manager
+  artifactKey: Guid(e401a804ef0543dc8e26238688be31cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PopupsSystem/Manager using Guid(e401a804ef0543dc8e26238688be31cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186bd3ea26c463a4e173a706f5973696') in 0.014171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.181737 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PopupsSystem/Manager/PopupsManager.cs
+  artifactKey: Guid(9fa3914edcc14dfa8e00392e946366f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PopupsSystem/Manager/PopupsManager.cs using Guid(9fa3914edcc14dfa8e00392e946366f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874a0ec90d0da7a64210c7639c2fda5f') in 0.014711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.563323 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PopupsSystem/Container
+  artifactKey: Guid(dac4264fb0904503afbad487b89ba401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PopupsSystem/Container using Guid(dac4264fb0904503afbad487b89ba401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ebc469f2c16c4f081539eb04b14a0e0') in 0.009584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.669865 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PopupsSystem/Container/PopupsContainer.cs
+  artifactKey: Guid(d8bfe53ab5564a89b2efc6b40c7e43d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PopupsSystem/Container/PopupsContainer.cs using Guid(d8bfe53ab5564a89b2efc6b40c7e43d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec437978900ba7b5115105630a35b161') in 0.015288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.335518 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PopupsSystem/BasePopup
+  artifactKey: Guid(c00cccd0eec940d09cc432170aa58e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PopupsSystem/BasePopup using Guid(c00cccd0eec940d09cc432170aa58e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ea512c44553a691de3e910820542d3') in 0.014117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.513143 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PopupsSystem/BasePopup/BasePopup.cs
+  artifactKey: Guid(d6718c85438f43c1b627f194d10b72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PopupsSystem/BasePopup/BasePopup.cs using Guid(d6718c85438f43c1b627f194d10b72b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0853606ec38fd51be103ec26c1c00825') in 0.013713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.351995 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PoolingSystem
+  artifactKey: Guid(bfccbf2f1fd04cc58faa476f649185c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PoolingSystem using Guid(bfccbf2f1fd04cc58faa476f649185c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1669ec5701f76957b4f1116bb654c794') in 0.013998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.116040 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PoolingSystem/Manager
+  artifactKey: Guid(0c1f2122b20a48e1b66eae0a14afb2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PoolingSystem/Manager using Guid(0c1f2122b20a48e1b66eae0a14afb2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3366d00a5f7e2e216ab48b30870609') in 0.013550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.848547 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PoolingSystem/Manager/PoolsManager.cs
+  artifactKey: Guid(c4db27caa9474bfeb12fd540c2721abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PoolingSystem/Manager/PoolsManager.cs using Guid(c4db27caa9474bfeb12fd540c2721abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a40fe1ae826561c59319bee1256784') in 0.009065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.653603 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract
+  artifactKey: Guid(59793cfcd619421e928932d18cdd5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract using Guid(59793cfcd619421e928932d18cdd5833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162ef3b487623e3b9134a9accca9ccb6') in 0.014883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.913663 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract/PoolItemFactory.cs
+  artifactKey: Guid(84f2b525a5e74c18aef3fa5e0b4c6a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract/PoolItemFactory.cs using Guid(84f2b525a5e74c18aef3fa5e0b4c6a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f2487e27d763d1306d233cefc9dd7d7') in 0.014878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.875631 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract/AbstractPoolItemFactory.cs
+  artifactKey: Guid(c2811c0cc6e841a2b7526ab61e6394cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract/AbstractPoolItemFactory.cs using Guid(c2811c0cc6e841a2b7526ab61e6394cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100c8b474f02aa562619e2df525a55a6') in 0.014410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.707321 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract/PoolItem.cs
+  artifactKey: Guid(f93a5b02769a4ae68defb01dffcf2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/PoolingSystem/Abstract/PoolItem.cs using Guid(f93a5b02769a4ae68defb01dffcf2296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9f254137551d529ecf8e628b567a5a') in 0.016516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.226465 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EventSystem
+  artifactKey: Guid(6389f18d39fd4410b5e4b36c4c4d220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EventSystem using Guid(6389f18d39fd4410b5e4b36c4c4d220e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9b1fef107c68fdd021c874955c257c') in 0.013219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.345947 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EventSystem/MessageBus.cs
+  artifactKey: Guid(804bdd92d38141dd998c62896c90eb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EventSystem/MessageBus.cs using Guid(804bdd92d38141dd998c62896c90eb62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5d6de500e5d75359dde8e894668b05') in 0.013881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.762870 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EventSystem/SubscribersList.cs
+  artifactKey: Guid(4594efd0b87b46b2a2bea1cd0429c503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EventSystem/SubscribersList.cs using Guid(4594efd0b87b46b2a2bea1cd0429c503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ee6a3eea5e6704ceb60e5b0cc1637d') in 0.020447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.730825 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap
+  artifactKey: Guid(6ab0d569cab64bed8133a57e95b049d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap using Guid(6ab0d569cab64bed8133a57e95b049d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12332d30a1725aaa07b9358b9ae99758') in 0.013961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.063623 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/Controllers
+  artifactKey: Guid(6a71f6b73d9943a1a7b5624b0f3c3a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/Controllers using Guid(6a71f6b73d9943a1a7b5624b0f3c3a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1599aaf3594888498fca792428cf9178') in 0.013862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.621290 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/Controllers/UI
+  artifactKey: Guid(ed4289a97fb242249715f6be4899aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/Controllers/UI using Guid(ed4289a97fb242249715f6be4899aee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87613d6f445596c770e16f193a55768f') in 0.014024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.609169 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/Controllers/UI/LevelsMapUIController.cs
+  artifactKey: Guid(41f60df696724f3cb30b4f110ad3cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/Controllers/UI/LevelsMapUIController.cs using Guid(41f60df696724f3cb30b4f110ad3cb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91035392ec065b65ca4218353bd4b5b5') in 0.015049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.162989 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/Installers
+  artifactKey: Guid(3b8a0bd007204734b637a240fee24698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/Installers using Guid(3b8a0bd007204734b637a240fee24698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164434da3cb209ee6bafaa704804e4e8') in 0.013240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.918315 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/Installers/PacksUIInstaller.cs
+  artifactKey: Guid(d8da10f5c145480998853f04c10f31ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/Installers/PacksUIInstaller.cs using Guid(d8da10f5c145480998853f04c10f31ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7afce7a5cee8e49c28c657f9565fc6bf') in 0.008901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.112637 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI
+  artifactKey: Guid(b3ac9172e4c148e7b48a6bdf666ac9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI using Guid(b3ac9172e4c148e7b48a6bdf666ac9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbacb1b2e5872db80f1f983dd53217c') in 0.014176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.740889 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/PacksContainer
+  artifactKey: Guid(a7273c793f134a348e5572d0fd8d9169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/PacksContainer using Guid(a7273c793f134a348e5572d0fd8d9169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86301d380daf1f86adfcfae80b2c0b1') in 0.019221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.691089 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack
+  artifactKey: Guid(0ce2c605305047829b3c89cc0247e49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack using Guid(0ce2c605305047829b3c89cc0247e49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7c7d563f1e5490b6952615c4737224') in 0.015503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.339886 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack/PackButtonListener.cs
+  artifactKey: Guid(47132bafe8f3409c90b0bb8c95e0cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack/PackButtonListener.cs using Guid(47132bafe8f3409c90b0bb8c95e0cd69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502b6cd0ab92713a0e9b5de6c0d0ad90') in 0.014525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.577013 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack/PackButtonView.cs
+  artifactKey: Guid(82ac9bb6c2714ab88683ff796f1cc12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack/PackButtonView.cs using Guid(82ac9bb6c2714ab88683ff796f1cc12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703958cfbc2b27c3ae7976b084836750') in 0.012636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.478969 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack/PackButton.cs
+  artifactKey: Guid(26031b029ee64ccd9c9c124e72bac6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/LevelsMap/UI/LevelPack/PackButton.cs using Guid(26031b029ee64ccd9c9c124e72bac6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b04667b56a3f1f62203f5e18666d78') in 0.009691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 316.785021 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/InputSystem/MobileInputListener.cs
+  artifactKey: Guid(e7ed7dbb00844de2882316f1d38bad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/InputSystem/MobileInputListener.cs using Guid(e7ed7dbb00844de2882316f1d38bad1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4abccaca99e558c07d12abfa8acb6ab') in 0.041796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 115.972903 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Player platform/Components/PlatformMovement.cs
+  artifactKey: Guid(1e682f3909674a9192ee20cb5d709877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Player platform/Components/PlatformMovement.cs using Guid(1e682f3909674a9192ee20cb5d709877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ac7b25a2c5a8ea7abcf8142f30717a') in 0.015985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.370391 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls/BallsOnSceneContainer.cs
+  artifactKey: Guid(dd909b28c4314f38a74afd6f5283bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls/BallsOnSceneContainer.cs using Guid(dd909b28c4314f38a74afd6f5283bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e04dbef7b4a9fd407722ae2a6c9249') in 0.011389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.640401 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls/BallsOnSceneController.cs
+  artifactKey: Guid(616349643a114211872dc1bc2ef39a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls/BallsOnSceneController.cs using Guid(616349643a114211872dc1bc2ef39a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026e2f70522752a5dd540e45775dfd56') in 0.010110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.843415 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls/BallsOnSceneVelocityController.cs
+  artifactKey: Guid(cdcaf22141ca4d9b899b8682ce4db60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls/BallsOnSceneVelocityController.cs using Guid(cdcaf22141ca4d9b899b8682ce4db60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abae18448b429ff1b8a21cddf69ffc19') in 0.009154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.432945 seconds.
+  path: Assets/ARCANOID/Scripts/Common/View
+  artifactKey: Guid(66f407193c2474ec294c9478f5195c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/View using Guid(66f407193c2474ec294c9478f5195c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0681ca0d00b41771c3cff0e32462505') in 0.016419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.729699 seconds.
+  path: Assets/ARCANOID/Scripts/Common/View/UI
+  artifactKey: Guid(7e5c4ecc03b3f4974ac23b06870c1fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/View/UI using Guid(7e5c4ecc03b3f4974ac23b06870c1fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9359c16a8b2fbdb473c63f12dd93542e') in 0.015018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.245666 seconds.
+  path: Assets/ARCANOID/Scripts/Common/View/UI/AppleFx
+  artifactKey: Guid(11bc96d888e545e2800d166853233414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/View/UI/AppleFx using Guid(11bc96d888e545e2800d166853233414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7dbea7e273855c61e04294dc784db4') in 0.016475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.292044 seconds.
+  path: Assets/ARCANOID/Scripts/Common/View/UI/AppleFx/AppleFxEntity.cs
+  artifactKey: Guid(5104b9cbdf0f4f85ad168fe6a7a508be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/View/UI/AppleFx/AppleFxEntity.cs using Guid(5104b9cbdf0f4f85ad168fe6a7a508be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea647675a1182867eaa3f150eb171ce') in 0.009660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.940143 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Data
+  artifactKey: Guid(0743c8978fb54951a734a9835062141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Data using Guid(0743c8978fb54951a734a9835062141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1b2f7afc47af6555ef5e2460a5f394') in 0.014528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.004498 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Camera
+  artifactKey: Guid(d551af8cceeb46daa88bc0af238bc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Camera using Guid(d551af8cceeb46daa88bc0af238bc5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfd45ebef41078274d6118cd474cd9e') in 0.015315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.727562 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Camera/CameraConstWidth
+  artifactKey: Guid(0b06aade7a8e439ab2dbc880a64aef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Camera/CameraConstWidth using Guid(0b06aade7a8e439ab2dbc880a64aef43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf5104239ec4b099f9d1a63702ae3c4') in 0.014151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.650483 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Camera/CameraConstWidth/OrthographicCameraConstWidth.cs
+  artifactKey: Guid(50319f60278b4fa78f6de8a1555a9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Camera/CameraConstWidth/OrthographicCameraConstWidth.cs using Guid(50319f60278b4fa78f6de8a1555a9a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bf2af1f8c87a110468161f5e9654a3') in 0.009909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.939386 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Services
+  artifactKey: Guid(dc109e5b4d34e425c9c5ad8140ad65af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Services using Guid(dc109e5b4d34e425c9c5ad8140ad65af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aede6c234f64ec7568bd3c059403394') in 0.014728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.362945 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Services/DataStorage
+  artifactKey: Guid(3e5e29ce20174a1caba97776e1e437b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Services/DataStorage using Guid(3e5e29ce20174a1caba97776e1e437b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6249fb7c04db6e42c1e37f66b9ac465c') in 0.010325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797720 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Services/DataStorage/StoredDataManager.cs
+  artifactKey: Guid(517b463833264cfaae018387d8385df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Services/DataStorage/StoredDataManager.cs using Guid(517b463833264cfaae018387d8385df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81584ee5878b2534beb0f0d84faa91a') in 0.009640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.060547 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/SimpleTemporaryBonuses/Variants/Ball
+  artifactKey: Guid(4306451b0e184632a48f87244407eae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/SimpleTemporaryBonuses/Variants/Ball using Guid(4306451b0e184632a48f87244407eae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba2d121bef5be8ff56cea9479e2f886') in 0.012211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.002507 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/SimpleTemporaryBonuses/Variants/Ball/RageBallBonusStateController.cs
+  artifactKey: Guid(6a082d288896492f9c3effeedf2e0e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/SimpleTemporaryBonuses/Variants/Ball/RageBallBonusStateController.cs using Guid(6a082d288896492f9c3effeedf2e0e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9a29ab09f9af5167c3c37f52b806b5') in 0.010237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.932583 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/SimpleInstant/Ball
+  artifactKey: Guid(5bf55f4539bc4af2ac670eae68d847e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/SimpleInstant/Ball using Guid(5bf55f4539bc4af2ac670eae68d847e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c68b8fd8fa3335a49469172525265e') in 0.015525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.524670 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/BinaryBonuses/Variants/Ball
+  artifactKey: Guid(e3b5bda4b92d4ba38b72de301efa01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/BonusEffectsProcessors/BinaryBonuses/Variants/Ball using Guid(e3b5bda4b92d4ba38b72de301efa01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab99a3339a9c5b0ed3618ef260b71f2e') in 0.015286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.004856 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Bonuses/Reproducers/Variants/Intrablock/Ball
+  artifactKey: Guid(381e735ecb7c439c9ef0ff6f1c9e3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Bonuses/Reproducers/Variants/Intrablock/Ball using Guid(381e735ecb7c439c9ef0ff6f1c9e3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b151b75525fad6bb0c51f815d6483e') in 0.003456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.652262 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Bonuses/Reproducers/Variants/Droppable/Ball
+  artifactKey: Guid(82a12f8446fe4dbfb11ecd3ffefaf92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Bonuses/Reproducers/Variants/Droppable/Ball using Guid(82a12f8446fe4dbfb11ecd3ffefaf92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c91e16f8319074c5579a8e204f35685') in 0.040248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.691801 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Handler Interfaces/Bonuses/Effects/Ball
+  artifactKey: Guid(8f94d76c56a34b078244984be42815ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Handler Interfaces/Bonuses/Effects/Ball using Guid(8f94d76c56a34b078244984be42815ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ba6c131ae6a093b90a71bb68410dd9') in 0.014395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.426635 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls
+  artifactKey: Guid(3764fbc08867456199862e9eb454f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Controllers/GameObjectsControllers/Balls using Guid(3764fbc08867456199862e9eb454f36b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cfc4c74da424a7527eabb7b12a2d4f') in 0.014346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.691515 seconds.
+  path: Assets/ARCANOID/Media/Sprites/Game/Balls
+  artifactKey: Guid(e8adeb86b97414ffc8b818f93e53dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Media/Sprites/Game/Balls using Guid(e8adeb86b97414ffc8b818f93e53dcfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f76bdfb5fde5537111fde69bdcc9eb89') in 0.014113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.686885 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/Handler Interfaces/Balls lifecycle
+  artifactKey: Guid(d39f39e8adaf473b9498d2233a62f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/Handler Interfaces/Balls lifecycle using Guid(d39f39e8adaf473b9498d2233a62f4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08400ea3f993f2260654e1afbb4a7c1f') in 0.015112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.189514 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Ball/Entity/BallPhysics.cs
+  artifactKey: Guid(02cf7c61f02e4d4e97574701e22b0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Ball/Entity/BallPhysics.cs using Guid(02cf7c61f02e4d4e97574701e22b0b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e438ce41d13807281d0b33051795bc0') in 0.010787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 651.635449 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects
+  artifactKey: Guid(858d1db8116743a2822062d41a3b1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects using Guid(858d1db8116743a2822062d41a3b1442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2928c917c39cbb503b6b096557f81002') in 0.013654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.737162 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block
+  artifactKey: Guid(224e3ac9f9c344448acbe6276b585642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block using Guid(224e3ac9f9c344448acbe6276b585642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7639bce8b7237b0cf9be1a5ada032c') in 0.011447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.871326 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Collider
+  artifactKey: Guid(a928a4b1be8f44418e71fc7643e5fe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Collider using Guid(a928a4b1be8f44418e71fc7643e5fe00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64210e6c4d4ecc8dd5ee48fa37c0cc93') in 0.010548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.910249 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Collider/BlockCollider.cs
+  artifactKey: Guid(705cfbcf0fe8435a8a4f2823cd4c1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Collider/BlockCollider.cs using Guid(705cfbcf0fe8435a8a4f2823cd4c1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5721f198377d9fd2f05c808e63ef7db7') in 0.009351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.311104 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Abstract
+  artifactKey: Guid(2226df9844254ef88a8778e9e6dcea62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Abstract using Guid(2226df9844254ef88a8778e9e6dcea62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd102887cf315a3877b7192b1ec8db25a') in 0.027932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.892268 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Abstract/Block.cs
+  artifactKey: Guid(7f16c5de5e7041fb897498783687e68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Abstract/Block.cs using Guid(7f16c5de5e7041fb897498783687e68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753388d44470be8bf4527bcf421c004e') in 0.003528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.096036 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Abstract/DestructibleBlock.cs
+  artifactKey: Guid(ced1d24aff86488291c899a47a042c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Abstract/DestructibleBlock.cs using Guid(ced1d24aff86488291c899a47a042c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f51b68beb74e03e5bf60f94ba08e94') in 0.010080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 354.730625 seconds.
+  path: Assets/ARCANOID/Prefabs/UI
+  artifactKey: Guid(0b5c004c66ea74af69f9b442c942cb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/UI using Guid(0b5c004c66ea74af69f9b442c942cb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20018e614359264e01a8ebc410f4b4f9') in 0.015384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.134683 seconds.
+  path: Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants
+  artifactKey: Guid(b3130fa6f58d747e7a10532926c7f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants using Guid(b3130fa6f58d747e7a10532926c7f154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffca4d7a7798a906068709506f070689') in 0.013986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.324665 seconds.
+  path: Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants/BedrockBlock.prefab
+  artifactKey: Guid(5866689130dfb41cebe6ff5103a2e59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants/BedrockBlock.prefab using Guid(5866689130dfb41cebe6ff5103a2e59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4d1bd50f820171c84176e8fe8ee884') in 0.187560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.103800 seconds.
+  path: Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants/BonusBlock.prefab
+  artifactKey: Guid(3acf9d5b28e70413d97fbc3e56f16c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants/BonusBlock.prefab using Guid(3acf9d5b28e70413d97fbc3e56f16c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836073fa4d8e18de8fac444925366900') in 0.026070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.620991 seconds.
+  path: Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants/SimpleBlock.prefab
+  artifactKey: Guid(6f857f4f4288c4513a36dff3e3d70da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/GameObjects/BlocksVariants/SimpleBlock.prefab using Guid(6f857f4f4288c4513a36dff3e3d70da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8536ea3d90cb4c8d4582fe2d4fe8aa') in 0.024265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.224941 seconds.
+  path: Assets/ARCANOID/Prefabs/GameObjects/Bonuses
+  artifactKey: Guid(977b0ca34c4ff421dacf4c4c9e2ea38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/GameObjects/Bonuses using Guid(977b0ca34c4ff421dacf4c4c9e2ea38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021a063cfac22883c6ac319da0f8434f') in 0.009737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.818879 seconds.
+  path: Assets/ARCANOID/Prefabs/Popups
+  artifactKey: Guid(4f4b21d84b2534cb49e192190cc359de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/Popups using Guid(4f4b21d84b2534cb49e192190cc359de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9335f3c6ef64e6aef74a88e5f72488ec') in 0.014042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.458109 seconds.
+  path: Assets/ARCANOID/Prefabs/GameObjects/Balls/Ball.prefab
+  artifactKey: Guid(4d75b75c89a954d39856edc9bd310abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/GameObjects/Balls/Ball.prefab using Guid(4d75b75c89a954d39856edc9bd310abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d083af0ffee8b1584635745c167ec1b') in 0.066798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.347366 seconds.
+  path: Assets/ARCANOID/Prefabs/Factories/BlockFactory.prefab
+  artifactKey: Guid(6ec3fefd2764a4985b05523bd14d5622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Prefabs/Factories/BlockFactory.prefab using Guid(6ec3fefd2764a4985b05523bd14d5622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed6c4b663f1c7d4ca1ecc97ee6269ee') in 0.016183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.960728 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Factory/BlockFactory.cs
+  artifactKey: Guid(c5abc23b5747453aa5b99c336e233d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Factory/BlockFactory.cs using Guid(c5abc23b5747453aa5b99c336e233d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a7dffbf455daa3d757e3aa755d37a6') in 0.003760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.161344 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Properties/BlockProperties.cs
+  artifactKey: Guid(ccca444f86a8406a96c39148b702c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/Objects/Block/Properties/BlockProperties.cs using Guid(ccca444f86a8406a96c39148b702c019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2be48d683472d958c64f60f62b935ee') in 0.010749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.827250 seconds.
+  path: Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/GameField/Grid/Cells/BlockPropertiesParser.cs
+  artifactKey: Guid(1c466a595ba947b9b9c9880b35c4a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Scenes/GameScene/GameEnvironment/GameField/Grid/Cells/BlockPropertiesParser.cs using Guid(1c466a595ba947b9b9c9880b35c4a53b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46671783a6b1c9e53ef480cfb6595dda') in 0.011210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 283.047494 seconds.
+  path: Assets/ARCANOID/Scripts/Common/View/UI/Animations/ValueChangeAnimation.cs
+  artifactKey: Guid(5a9cb964372642fc82229818c2ebd53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/View/UI/Animations/ValueChangeAnimation.cs using Guid(5a9cb964372642fc82229818c2ebd53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458bebdfaaa0b08f7fa0ca1810dcfa54') in 0.012521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 257.877153 seconds.
+  path: Assets/ARCANOID/Scripts/Common/View/UI/Animations/FadingPanel.cs
+  artifactKey: Guid(3dd9b5fd47de4c5bbd16b394b6df6502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/View/UI/Animations/FadingPanel.cs using Guid(3dd9b5fd47de4c5bbd16b394b6df6502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9b2b6abacac264e832bd1dd4b819c7') in 0.010374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.721210 seconds.
+  path: Assets/ARCANOID/Scripts/Common/View/UI/Animations/TweenScaler.cs
+  artifactKey: Guid(01f9ad8fd99a4023917713dccc816b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/View/UI/Animations/TweenScaler.cs using Guid(01f9ad8fd99a4023917713dccc816b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069d5d830f917c2f276aa7277521b3ed') in 0.010434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.647448 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Data/Long-term data
+  artifactKey: Guid(db1cfd341f7f4141b9db5563a19f80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Data/Long-term data using Guid(db1cfd341f7f4141b9db5563a19f80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b371444edd7260ab5c55ab2a95731ac3') in 0.013394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.887974 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Data/Long-term data/InterfaceParamsData
+  artifactKey: Guid(53412c8b423d4bf586f47eb6c5478ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Data/Long-term data/InterfaceParamsData using Guid(53412c8b423d4bf586f47eb6c5478ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bcf79042144e2834145dbb66b84ae5') in 0.010176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.392455 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Data/Long-term data/Progress
+  artifactKey: Guid(77293096444648489c9cd612a25b026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Data/Long-term data/Progress using Guid(77293096444648489c9cd612a25b026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06104aaf0e2e3a4857e3cde63b8e6ca') in 0.010418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.745006 seconds.
+  path: Assets/ARCANOID/Scripts/Common/Data/Long-term data/Progress/StoredGameProgress.cs
+  artifactKey: Guid(39ffab70daed43c78be604430c3b64a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/Data/Long-term data/Progress/StoredGameProgress.cs using Guid(39ffab70daed43c78be604430c3b64a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d37fd41b73a23d06ddb8bd6fc358fe') in 0.009529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 111.322792 seconds.
+  path: Assets/ARCANOID/Scripts/Common/LevelPacksSystem/API/ProgressSaveProvider.cs
+  artifactKey: Guid(edb36838cff247848ad33d95b08dd9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/LevelPacksSystem/API/ProgressSaveProvider.cs using Guid(edb36838cff247848ad33d95b08dd9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d1e231f24ce67ffa69737f9cb2a807') in 0.009111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.142931 seconds.
+  path: Assets/ARCANOID/Scripts/Common/LevelPacksSystem/Logic/GameProgressProcessor.cs
+  artifactKey: Guid(67606fd3a1524a8eb05de230f74e62a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Common/LevelPacksSystem/Logic/GameProgressProcessor.cs using Guid(67606fd3a1524a8eb05de230f74e62a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec32ceeea5649cfa9595fa618bcf79c3') in 0.011345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 350.255763 seconds.
+  path: Assets/ARCANOID/GameConfiguration/SystemConfigs
+  artifactKey: Guid(016957739f3c43afbaff37e5df2e0693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/SystemConfigs using Guid(016957739f3c43afbaff37e5df2e0693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4937c2142f0e0ac3bf84df579d6b908') in 0.014797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.093258 seconds.
+  path: Assets/ARCANOID/GameConfiguration/SystemConfigs/UserData
+  artifactKey: Guid(2de34dbdcd104de98572f1da3fecb01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/SystemConfigs/UserData using Guid(2de34dbdcd104de98572f1da3fecb01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51f29d0dd8333af7a7fb5b7b8463b0b') in 0.015910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.598277 seconds.
+  path: Assets/ARCANOID/GameConfiguration/SystemConfigs/UserData/StorageProvider.asset
+  artifactKey: Guid(9dfbd557d0d6440fbb494ada4410082b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/SystemConfigs/UserData/StorageProvider.asset using Guid(9dfbd557d0d6440fbb494ada4410082b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913bca927bc5c6002570ecbff84425f7') in 0.010743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.658681 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/SavingData/API/StorageProvider.cs
+  artifactKey: Guid(3598ad846f8848bb94810ee5e1254c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/SavingData/API/StorageProvider.cs using Guid(3598ad846f8848bb94810ee5e1254c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a252f8ce20f562d326edd0da13247bfe') in 0.003582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 606.439815 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/Localization/Configuration
+  artifactKey: Guid(e5885c0e21ad428eabbbe632c9ac4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/Localization/Configuration using Guid(e5885c0e21ad428eabbbe632c9ac4949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406d951e1a33e6909744ddeab2175bcd') in 0.013453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.002793 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/Localization/Configuration/JsonParserConfig.cs
+  artifactKey: Guid(7ad5c6f0d3564b2f89582f5b5c7237bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/Localization/Configuration/JsonParserConfig.cs using Guid(7ad5c6f0d3564b2f89582f5b5c7237bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22f19ebc49bb06f8b265e0bbb2c6053') in 0.011679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 98.034609 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/Localization/TranslationsStorage
+  artifactKey: Guid(49632ab522e6482781757b82d705cb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/Localization/TranslationsStorage using Guid(49632ab522e6482781757b82d705cb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26881c1a37f03d9692e52031203bf319') in 0.013444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.077108 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/RestoreProcessor
+  artifactKey: Guid(d355c9348c5c4c568310f8d60ab92452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/RestoreProcessor using Guid(d355c9348c5c4c568310f8d60ab92452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e872f77762123088b8e7c4267ba111') in 0.011215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.869324 seconds.
+  path: Assets/ARCANOID/Scripts/Libs/EnergySystem/RestoreProcessor/EnergyRestoreProcessor.cs
+  artifactKey: Guid(10d7ddc9f4e548cc896483a38460c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/Scripts/Libs/EnergySystem/RestoreProcessor/EnergyRestoreProcessor.cs using Guid(10d7ddc9f4e548cc896483a38460c5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2feba51fce09bad136f5c4dea858db73') in 0.009791 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003488 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (168ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.5 MB.
+System memory in use after: 111.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3087.
+Total: 3.238100 ms (FindLiveObjects: 0.210300 ms CreateObjectMapping: 0.064100 ms MarkObjects: 2.925100 ms  DeleteObjects: 0.037700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1387.393401 seconds.
+  path: Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Creeper/Creeper.asset
+  artifactKey: Guid(cdb52157ad4264b78a770b998a7c9e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Creeper/Creeper.asset using Guid(cdb52157ad4264b78a770b998a7c9e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794661e9ab36c8e92684fff20cc7365a') in 0.037727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.811454 seconds.
+  path: Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Creeper/SetOfPacks.asset
+  artifactKey: Guid(7f3586e3d97bb4f42a3d071e990a6a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Creeper/SetOfPacks.asset using Guid(7f3586e3d97bb4f42a3d071e990a6a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366e4d45551e0fd9ef638290d7abb4cd') in 0.011371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.058870 seconds.
+  path: Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Creeper/LevelPack.asset
+  artifactKey: Guid(db72c3593620bdc4297307b77a0302f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCANOID/GameConfiguration/GameplayConfigs/LevelPacks/Packs/Normal Packs/Creeper/LevelPack.asset using Guid(db72c3593620bdc4297307b77a0302f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3462b8058152cdff6ab84069238fc99f') in 0.004096 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003451 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.099 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (887ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2613 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.5 MB.
+System memory in use after: 111.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3090.
+Total: 4.236100 ms (FindLiveObjects: 0.523000 ms CreateObjectMapping: 0.104700 ms MarkObjects: 3.549600 ms  DeleteObjects: 0.056900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
