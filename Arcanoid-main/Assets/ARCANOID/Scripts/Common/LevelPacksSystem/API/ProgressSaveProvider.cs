@@ -29,7 +29,8 @@ public class ProgressSaveProvider
         var packID = packs.First().Key;
         if (!StoredProgressContainsKey(packID))
         {
-            var openPacks = _storedGameProgress.PacksProgress.Where(packs => packs.Value.IsOpen);
+            var openPacks = _storedGameProgress.PacksProgress.Where(packState
+                => packState.Value.IsOpen);
             IsSaveExistsOnStart = openPacks.Any(pack => packs.ContainsKey(pack.Key));
             OpenPack(packID);
         }
